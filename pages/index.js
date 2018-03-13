@@ -21,7 +21,7 @@ export default () => (
           href={{ pathname: '/organization', query: { slug: 'an-organization-that-shouldnt-exist' } }}
           as='/organization/an-organization-that-shouldnt-exist'
         >
-          <a>An organization that 404's from organization.js (but I think it should come from _error.js)</a>
+          <a>An organization that 404s from organization.js (but I think it should come from _error.js)</a>
         </Link>
       </li>
     </ul>
